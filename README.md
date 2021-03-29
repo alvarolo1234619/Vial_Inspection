@@ -50,3 +50,23 @@ Install miniconda on your machine. Detailed instructions:
 
 ### Create and Activate the Environment
 For Windows users, these following commands need to be executed from the Anaconda prompt as opposed to a Windows terminal window. For Mac, a normal terminal window will work.
+
+**Git and version control**
+
+These instructions also assume you have `git` installed for working with Github from a terminal window, but if you do not, you can download that first with the command:
+
+```
+conda install git
+
+```
+
+**Now, we're ready to create our local environment!**
+ First: Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
+```
+git clone https://github.com/alvarolo1234619/Vial_Inspection.git
+cd Vial_Inspection
+
+```
+ Second: Create (and activate) a new environment, named `VialRecognition` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+ 
+ 
