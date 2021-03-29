@@ -113,5 +113,10 @@ cd Vial_Inspection
 For more detail on how to train a model using the **VialRecognition_CNN.py** file  please watch the following YouTube video : https://youtu.be/lKHl0BMO2YA 
 
 ### Testing
+For more detail on how to test a model using the **Vial_Recognition_Application_Run.py** file  please watch the following YouTube video : https://youtu.be/go0ejKXNz0s 
+
+* **First**: open   Vial_Recognition_Application_Run.py in your IDE of preference and run the code.
+* **Second**: After the program starts running, it will prompt you for a source directory from where to obtain images to classify between the three clasess. Select top_view_vials_002_test folder
+* **Third**: You get the output of the program which is a window showing 5 images and their prediction prbability distribution on the side. See image below for more detail:
 
 
