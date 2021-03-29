@@ -104,4 +104,4 @@ cd Vial_Inspection
   
   ```
   
- *You are done*.
+ *You are done installing these modules and basically setting up to run in a computer or laptop*.
