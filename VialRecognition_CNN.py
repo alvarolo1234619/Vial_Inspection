@@ -157,7 +157,7 @@ for epoch in range(epochs):
 
 
 save_path= "/home/alvaro/Desktop/pyPro/opencv_program"
-torch.save(model.state_dict(), save_path+"/"+"Vial_CNN_test_01.pth")
+torch.save(model.state_dict(), save_path+"/"+"Vial_CNN_test.pth")
 
 ########## Getting Data Straight : #############
 
