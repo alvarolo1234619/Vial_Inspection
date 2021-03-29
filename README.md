@@ -105,3 +105,13 @@ cd Vial_Inspection
   ```
   
  *You are done installing these modules and basically setting up to run in a computer or laptop*.
+
+
+## Test project from a computer or laptop
+
+### Train model
+For more detail on how to train a model using the **VialRecognition_CNN.py** file  please watch the following YouTube video : https://youtu.be/lKHl0BMO2YA 
+
+### Testing
+
+
