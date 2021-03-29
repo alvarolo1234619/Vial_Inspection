@@ -77,7 +77,31 @@ cd Vial_Inspection
   ```
   ##### Windows:
    ```
-  conda create --name deep-learning python=3.6
-  activate deep-learning
+  conda create --name VialRecognition python=3.6
+  activate VialRecognition
   ```
  
+ At this point your command line should look something like: `(VialRecognition) <User>:VialRecognition <user>$`. The `(VialRecognition) `   indicates that your environment has been activated, and you can proceed with further package installations.
+ 
+ Third: Install PyTorch and torchvision; this should install the latest version of PyTorch.
+ 
+  ##### Linux or Mac:
+  ```
+  conda install pytorch torchvision -c pytorch 
+  
+  ```
+  ##### Windows:
+   ```
+  conda install pytorch -c pytorch
+  pip install torchvision
+  
+  ```
+ 
+ Fourth: Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
+   ```
+  pip install -r requirements.txt
+  
+  
+  ```
+  
+ *You are done*.
