@@ -61,6 +61,7 @@ conda install git
 ```
 
 **Now, we're ready to create our local environment!**
+
  First: Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
 git clone https://github.com/alvarolo1234619/Vial_Inspection.git
@@ -69,4 +70,14 @@ cd Vial_Inspection
 ```
  Second: Create (and activate) a new environment, named `VialRecognition` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
  
+  ##### Linux or Mac:
+  ```
+  conda create -n VialRecognition python=3.6
+  source activate VialRecognition
+  ```
+  ##### Windows:
+   ```
+  conda create --name deep-learning python=3.6
+  activate deep-learning
+  ```
  
