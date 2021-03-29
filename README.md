@@ -119,4 +119,4 @@ For more detail on how to test a model using the **Vial_Recognition_Application_
 * **Second**: After the program starts running, it will prompt you for a source directory from where to obtain images to classify between the three clasess. Select top_view_vials_002_test folder
 * **Third**: You get the output of the program which is a window showing 5 images and their prediction prbability distribution on the side. See image below for more detail:
 
-
+![](Output_Sample.png)
