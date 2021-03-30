@@ -22,15 +22,15 @@ This type of image looks as follows:
 
 ## Repository Contents
 The contents of this repository are :
-  * Train Folder : this top_view_vials_002 folder contains three (3) subdirectories: airnob, csp, and nothing. 
-  * Test Folder : this top_view_vials_002_test folder contains two (3) subdirectories (airnob, csp, and nothing) with image data for you to forward pass (test) the model
-  * VialRecognition_CNN.py : this python script file contains the code where the model is trained. Here the bias and weight parameters of the model get updated through the epochs
-  * VialCNN.pth : This is the already trained model. This model has the best accuracy
-  * Vial_Recognition_Application_Run.py : This python scrip file is a program that prompts the user to select a folder by openning an Open Dialog Box window. Select either top_view_vials_002 or top_view_vials_002_test folders to proceed with the program. After selecting either of these folders located in this repository, the program will output a matplotlib plot that shows 5 images with their predictions alongside
-  * Vial_CNN_test.pth: This is just a dummy model. The VialRecognition_CNN.py will overwrite this model when this py file runs
-  * Vial Recognition Live.py: This is a program used in one of the videos that is part of this repository submission. In the video I am running my program live and I am presenting my Jetson nano-camera system with the different vials that I used for trainning this model. The live program is capable of identifying correctly the vials that I present to the jetson nano-camera system.
-  * Sample images: These are airnob.jpg, csp.jpg and nothing.jpg
-  * Functions: two (2) py file scripts are turned into modules that contain functions for my other programs to work. These py files are; namely:   utils_dlinano.py and DirectoryFunctions.py
+  * **Train Folder** : this top_view_vials_002 folder contains three (3) subdirectories: airnob, csp, and nothing. 
+  * **Test Folder** : this top_view_vials_002_test folder contains two (3) subdirectories (airnob, csp, and nothing) with image data for you to forward pass (test) the model
+  * **VialRecognition_CNN.py** : this python script file contains the code where the model is trained. Here the bias and weight parameters of the model get updated through the epochs
+  * **VialCNN.pth** : This is the already trained model. This model has the best accuracy
+  * **Vial_Recognition_Application_Run.py** : This python scrip file is a program that prompts the user to select a folder by openning an Open Dialog Box window. Select either top_view_vials_002 or top_view_vials_002_test folders to proceed with the program. After selecting either of these folders located in this repository, the program will output a matplotlib plot that shows 5 images with their predictions alongside
+  * **Vial_CNN_test.pth**: This is just a dummy model. The VialRecognition_CNN.py will overwrite this model when this py file runs
+  * **Vial Recognition Live.py**: This is a program used in one of the videos that is part of this repository submission. In the video I am running my program live and I am presenting my Jetson nano-camera system with the different vials that I used for trainning this model. The live program is capable of identifying correctly the vials that I present to the jetson nano-camera system.
+  * **Sample images**: These are airnob.jpg, csp.jpg and nothing.jpg
+  * **Functions**: two (2) py file scripts are turned into modules that contain functions for my other programs to work. These py files are; namely:   utils_dlinano.py and DirectoryFunctions.py
 
 ## Set-up
 If you will be running this from a x64 or x86 processor architecture (laptop or desktop computers), follow these steps:
