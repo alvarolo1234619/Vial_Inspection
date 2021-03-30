@@ -136,3 +136,14 @@ For emulating the application shown in **Vial Recognition Live.py** you will req
 * A Holder Mechanism (for holding Jetson Nano and Camera)
 * Computer Peripheral Devices: Monitor, Mouse, and Keyboard
 
+### Libraries/Modules Installation onto the Jetson Developer Kit:
+
+The following libraries are necessary for **Vial Recognition Live.py** to run properly
+
+* numpy (refer to https://youtu.be/KNJwKDpexWE)
+* matplotlib.pyplot  (refer to https://youtu.be/KNJwKDpexWE)
+* opencv (AKA cv2)  (refer to https://youtu.be/3QYayL5y2hk)
+* pytorch 1.8.0 or later (torch)  (refer to https://youtu.be/5rbOsKCZ-VU)
+* torchvision  (refer to https://youtu.be/5rbOsKCZ-VU)
+* os
+
