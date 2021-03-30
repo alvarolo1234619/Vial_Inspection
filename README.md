@@ -148,4 +148,4 @@ The following libraries are necessary for **Vial Recognition Live.py** to run pr
 * os
 
 For more details on **Vial Recognition Live.py**, watch the following video: https://youtu.be/go0ejKXNz0s
-In this video I walk through each code of line and I display my project running live.
+In this video I walk through each line of code and I display my project running live.
