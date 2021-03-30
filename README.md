@@ -120,3 +120,19 @@ For more detail on how to test a model using the **Vial_Recognition_Application_
 * **Third**: You get the output of the program which is a window showing 5 images and their prediction prbability distribution on the side. See image below for more detail:
 
 ![](Output_Sample.png)
+
+
+## Test project using a Jetson Nano Developer Kit
+
+### Hardware Considerations:
+For emulating the application shown in **Vial Recognition Live.py** you will require the following components:
+
+* Jetson Nano Developer Kit
+* microSD Memory Card (32GB UHS-I minimum)
+* compatible 5V 4A Power Supply with 2.1mm DC barrel connector
+* 2-pin jumper
+* Raspberry Pi Camera V2 
+* Lens Adjustment Tool for Raspberry Pi Camera
+* A Holder Mechanism (for holding Jetson Nano and Camera)
+* Computer Peripheral Devices: Monitor, Mouse, and Keyboard
+
